@@ -125,13 +125,9 @@ ____________________________________
 
 Процесс установки:
 
-
+https://niuitmo-my.sharepoint.com/personal/onisoris_niuitmo_ru/_layouts/15/stream.aspx?id=%2Fpersonal%2Fonisoris%5Fniuitmo%5Fru%2FDocuments%2FMyProjects%2F%D0%9F%D0%BE%D1%82%D0%B5%D0%BD%D1%86%D0%B8%D0%BE%D1%81%D1%82%D0%B0%D1%82%2FEasyEda%2Emp4&ga=1
 
 Далее установим линейный стабилизатор напряжения MIC5205-3.3YM5 со всей необходимой обвязкой.
-
-
-
-
 
 Данных навыков достаточно для дальнейшего построения схемы.
 
