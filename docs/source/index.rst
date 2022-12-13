@@ -8,4 +8,5 @@
 .. toctree::
 
    introduction
+   electrical_diagram
    
