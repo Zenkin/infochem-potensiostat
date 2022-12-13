@@ -37,3 +37,9 @@ TP4056, Контроллер заряда Li-Ion батари (14)
 .. figure:: _static/Pictures/electrical_diagram/FuncScheme.png
     :align: center
 
+
+
+Управляющий микроконтроллер
+____________________________
+
+
