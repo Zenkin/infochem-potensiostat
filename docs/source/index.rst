@@ -11,4 +11,7 @@
    electrical_diagram
    easyEDA
    PCBway
+   JLCpcb
+   soldering
+   
 
