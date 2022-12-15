@@ -296,37 +296,73 @@ ___________________
     :align: center
 
 
+------------------------------
+
+Установка компонента на плату
+------------------------------
+
+.. figure:: _static/Pictures/soldering/3.jpg
+    :scale: 10 %
+    :align: center
 
 
+Устанавливаем корпус на контактные дорожки поверх флюса, пинцетом его двигаем так, чтобы все контакты совпали между собой.
 
 
+------------
+
+Пайка феном
+------------
+
+Температуру для фена выбираем в зависимости от припоя. Аккуратно нагреваем чип, если он съезжает, то поправляем пинцетом.
+
+.. figure:: _static/Pictures/soldering/4.jpg
+    :scale: 10 %
+    :align: center
 
 
+-------------------
+
+Проверка контактов
+-------------------
+
+Проверить удачно ли вы спаяли плату можно: 
+
+1) глазами; 
+
+2) камерой телефона; 
+
+3) микроскопом.
+
+Необходимо проверить каждый контакт на наличие лишнего припоя, который может замкнуть соседние контакты.
+
+.. figure:: _static/Pictures/soldering/5.jpg
+    :scale: 10 %
+    :align: center
 
 
+-------------------
+
+Пайка конденсатора
+-------------------
+
+https://niuitmo-my.sharepoint.com/:v:/g/personal/onisoris_niuitmo_ru/EU2iRAz2NZBCvQxo4NaqD1EBcPs8Fj8cbAI7xY1WFhsXmQ?e=cNN0DL
 
 
+-------------------
+
+Пайка FS8205A
+-------------------
+
+https://niuitmo-my.sharepoint.com/:v:/g/personal/onisoris_niuitmo_ru/EU2iRAz2NZBCvQxo4NaqD1EBcPs8Fj8cbAI7xY1WFhsXmQ?e=cNN0DL
 
 
+-------------------------------
 
+Пайка стабилизатора напряжения
+-------------------------------
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+https://niuitmo-my.sharepoint.com/:v:/g/personal/onisoris_niuitmo_ru/EU2iRAz2NZBCvQxo4NaqD1EBcPs8Fj8cbAI7xY1WFhsXmQ?e=cNN0DL
 
 
 
