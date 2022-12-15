@@ -10,4 +10,5 @@
    introduction
    electrical_diagram
    easyEDA
+   PCBway
 
