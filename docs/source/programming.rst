@@ -2,8 +2,8 @@
 ================
 
 
-Arduino IDE
-___________
+Arduino IDE и загрузка прошивки в контроллер
+______________________________________________
 
 
 1. Скачайте(https://www.arduino.cc/en/software) установщик среды разработки Arduino IDE и установите.
@@ -58,13 +58,10 @@ ___________
     :align: center
 
 
-____________________________
 
-Загрузка прошивки в контроллер
-__________________________________
 
 GUI приложение
---------------
+______________
 
 1. [Скачаем]() архив `scripts.zip` и распакуем его.
 
@@ -84,10 +81,10 @@ GUI приложение
     :scale: 40 %
     :align: center
 
---------------------
+-----------------
 
 Запуск измерения
---------------------
+-----------------
 
 1. Для того, чтобы выполнить измерение потенциостатом, необходимо подключить прошитый потенциостат по USB к компьютеру и включим его питание (переключим выключатель в положение `ON`, светодиод загорится зелёным).
 
@@ -152,69 +149,138 @@ GUI приложение
 
 11. При поставленной галочке на сохранение данных теста в папке пользователя в `data` сохранятся данные теста (пока неактивно для данной версии API).
 
+Android приложение
+___________________
+
+1. [Скачаем]() приложение `isc-3.apk` и установим его.
+
+2. Включим питание прошитого потенциостата.
+
+3. Подключим смартфон по Bluetooth к устройству с именем `Potentiostat`: 
+
+.. figure:: _static/Pictures/programming/choose.jpg
+    :scale: 20 %
+    :align: center
+
+.. figure:: _static/Pictures/programming/accept.jpg
+    :scale: 20 %
+    :align: center
+
+.. figure:: _static/Pictures/programming/checkBT.jpg
+    :scale: 20 %
+    :align: center
 
 
+-----------------
 
+Запуск измерения
+-----------------
 
+1. Для того, чтобы выполнить измерение потенциостатом, необходимо подключить прошитый потенциостат по Bluetooth к смартфону и включить его питание (переключим выключатель в положение `ON`, светодиод загорится зелёным).
 
+2. В ПО на начальном экране выберем устройство `Potentiostat` и нажмём `Подключиться`:
 
+.. figure:: _static/Pictures/programming/potWindow.jpg
+    :scale: 20 %
+    :align: center
 
+3. Далее во вкладке`Тесты` выберем режим измерений. В данном примере `Cyclic`:
 
+.. figure:: _static/Pictures/programming/cycWindow.jpg
+    :scale: 20 %
+    :align: center
 
+Такой тип теста позволяет выполнить циклическую хроноамперометрию, то есть линейно изменять подаваемое напряжение, измеряя получаемый ток. После выбора типа теста нажимаем кнопку `Запустить`.
 
+4. Откроется окно, в котором зададим параметры измерения: диапазон токов измерения `Current range` определим равным `100 uA` (соответствующее данному устройству), в поле `sample rate` зададим частоту дискретизации (по умолчанию установлено значение `100 Hz`):
 
+.. figure:: _static/Pictures/programming/settingsWindow.jpg
+    :scale: 20 %
+    :align: center
 
+5. Пропустим поля `Quiet time` и `Quiet value`, поскольку они неактивны для данной прошивки потенциостата. Зададим предельные значения напряжений в полях `Min value` и `Max value` равными `-0.6 V` и `0.6 V`, соответственно, для данного примера:
 
+.. figure:: _static/Pictures/programming/settingsWindow2.jpg
+    :scale: 20 %
+    :align: center
 
+6. В поле `Scan rate` установим скорость изменения напряжения, равной `0.05 V/s`. В поле `Cycles` определим количество повторений цикла. Для данного примера значение равно `3`:
 
+.. figure:: _static/Pictures/programming/settingsWindow3.jpg
+    :scale: 20 %
+    :align: center
 
+7. Вставим бумажный электрод в разъём для электродов:
 
+.. figure:: _static/Pictures/programming/electrode.jpg
+    :scale: 10 %
+    :align: center
 
+Если электрод слишком тонкий, подложим под него сложенную бумагу для уплотнения и лучшей фиксации:
 
+.. figure:: _static/Pictures/programming/papper.jpg
+    :scale: 10 %
+    :align: center
 
+8. Нанесём исследуемый раствор на электрод с помощью пипетки:
 
+.. figure:: _static/Pictures/programming/liquid.jpg
+    :scale: 10 %
+    :align: center
 
+9. После проверки введённых параметров нажмём кнопку `Запустить`. После этого начнётся эксперимент, который можно отслеживать в трёх режимах. Режим `Напряжение и время`:
 
+.. figure:: _static/Pictures/programming/testStart.jpg
+    :scale: 20 %
+    :align: center
 
+Режим `Сила тока и время`:
 
+.. figure:: _static/Pictures/programming/testStart2.jpg
+    :scale: 20 %
+    :align: center
 
+Режим `Сила тока и напряжение`:
 
+.. figure:: _static/Pictures/programming/testStart3.jpg
+    :scale: 20 %
+    :align: center
 
+10. После завершения эксперимента получим графики. График `Напряжение и время`:
 
+.. figure:: _static/Pictures/programming/testFinish.jpg
+    :scale: 20 %
+    :align: center
 
+График `Сила тока и время`:
 
+.. figure:: _static/Pictures/programming/testFinish2.jpg
+    :scale: 20 %
+    :align: center
 
+График `Сила тока и напряжение`:
 
+.. figure:: _static/Pictures/programming/testFinish3.jpg
+    :scale: 20 %
+    :align: center
 
+11. Чтобы сохранить результаты теста, нажмём кнопку `Сохранить`:
 
+.. figure:: _static/Pictures/programming/saving.jpg
+    :scale: 20 %
+    :align: center
 
+12. Для того, чтобы посмотреть результаты сохраненного теста, откроем вкладку `История`:
 
+.. figure:: _static/Pictures/programming/history.jpg
+    :scale: 20 %
+    :align: center
 
+Здесь выберем интересующий нас тест и нажмём кнопку `Просмотр`. После чего у нас появится результат теста, такой же, как сразу после его выполнения:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.. figure:: _static/Pictures/programming/showing.jpg
+    :scale: 20 %
+    :align: center
 
 
 
