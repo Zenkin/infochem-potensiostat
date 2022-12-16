@@ -346,7 +346,7 @@ ___________________
 Пайка конденсатора
 -------------------
 
-https://niuitmo-my.sharepoint.com/:v:/g/personal/onisoris_niuitmo_ru/EU2iRAz2NZBCvQxo4NaqD1EBcPs8Fj8cbAI7xY1WFhsXmQ?e=cNN0DL
+ddddddd
 
 
 -------------------
