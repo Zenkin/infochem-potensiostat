@@ -14,5 +14,6 @@
    JLCpcb
    soldering
    calibration
+   programming
 
 
