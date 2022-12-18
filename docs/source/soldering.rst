@@ -346,7 +346,9 @@ ___________________
 Пайка конденсатора
 -------------------
 
-ddddddd
+.. figure:: _static/Pictures/soldering/soldering_cap.gif
+    :scale: 60 %
+    :align: center
 
 
 -------------------
@@ -354,7 +356,9 @@ ddddddd
 Пайка FS8205A
 -------------------
 
-https://niuitmo-my.sharepoint.com/:v:/g/personal/onisoris_niuitmo_ru/EU2iRAz2NZBCvQxo4NaqD1EBcPs8Fj8cbAI7xY1WFhsXmQ?e=cNN0DL
+.. figure:: _static/Pictures/soldering/FS8205A.gif
+    :scale: 60 %
+    :align: center
 
 
 -------------------------------
@@ -362,7 +366,9 @@ https://niuitmo-my.sharepoint.com/:v:/g/personal/onisoris_niuitmo_ru/EU2iRAz2NZB
 Пайка стабилизатора напряжения
 -------------------------------
 
-https://niuitmo-my.sharepoint.com/:v:/g/personal/onisoris_niuitmo_ru/EU2iRAz2NZBCvQxo4NaqD1EBcPs8Fj8cbAI7xY1WFhsXmQ?e=cNN0DL
+.. figure:: _static/Pictures/soldering/stab.gif
+    :scale: 60 %
+    :align: center
 
 
 
