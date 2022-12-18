@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Потенциостат'
+copyright = '2022'
+author = 'Artemii Zenkin'
 
 release = '0.1'
 version = '0.1.0'
